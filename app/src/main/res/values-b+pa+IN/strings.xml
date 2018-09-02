@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਮਿੱਟੀ</string>
+    <string name="title_activity_maps">ਨਕਸ਼ਾ</string>
+    <string name="google_maps_key">AIzaSyCfYDUpH3HB8m0cyGAikuI4gA7UkLG4itU</string>
+    <string name="weather_status">ਮੌਸਮ ਸਥਿਤੀ:</string>
+    <string name="temp">ਤਾਪਮਾਨ:</string>
+    <string name="pressure">ਦਬਾਅ:</string>
+    <string name="humidity">ਨਮੀ:</string>
+    <string name="min_temp">ਮਿੰਟ ਟੈਪ:</string>
+    <string name="max_temp">ਮੈਕਸ ਟੈਪ:</string>
+    <string name="wind_speed">ਹਵਾ ਦੀ ਗਤੀ:</string>
+    <string name="wind_direction">ਹਵਾ ਦੀ ਦਿਸ਼ਾ:</string>
+    <string name="view_soil_information">ਭੂਮੀ ਜਾਣਕਾਰੀ ਦੇਖੋ</string>
+    <string name="description">ਵਰਣਨ:</string>
+    <string name="composition">ਰਚਨਾ:</string>
+    <string name="edit">ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="potassium">ਪੋਟਾਸ਼ੀਅਮ</string>
+    <string name="phosphorous">ਫਾਸਫੋਰਸ</string>
+    <string name="alkali">ਅਕਲ</string>
+    <string name="nitrogen">ਨਾਈਟ੍ਰੋਜਨ</string>
+    <string name="iron_oxide">ਆਇਰਨ ਆਕਸਾਈਡ</string>
+    <string name="lime">ਚੂਨਾ</string>
+    <string name="change_values">ਵੈਲਯੂਜ਼ ਅਪਡੇਟ ਕਰੋ: (ਬਿਨਾਂ ਬਦਲੇ ਖਾਲੀ ਲਈ ਛੱਡੋ)</string>
+    <string name="save">ਸੇਵ ਕਰੋ</string>
+    <string name="feed">ਫੀਡ</string>
+    <string name="access">ਪਹੁੰਚ</string>
+    <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="soil_JSON">https://api.myjson.com/bins/1e47j1</string>
+    <string name="states_JSON">https://api.myjson.com/bins/1bsvj1</string>
+    <!--<string name="states_JSON">https://api.myjson.com/bins/qb1fd</string>
+    <string name="soil_JSON">https://api.myjson.com/bins/jtexl</string>-->
+</resources>

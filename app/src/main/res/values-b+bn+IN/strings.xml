@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">মাটি</string>
+    <string name="title_activity_maps">মানচিত্র</string>
+    <string name="google_maps_key">AIzaSyCfYDUpH3HB8m0cyGAikuI4gA7UkLG4itU</string>
+    <string name="weather_status">আবহাওয়ার অবস্থা:</string>
+    <string name="temp">টেম্প:</string>
+    <string name="pressure">চাপ:</string>
+    <string name="humidity">শৈত্য:</string>
+    <string name="min_temp">মিনি টেম্প:</string>
+    <string name="max_temp">সর্বোচ্চ তাপমাত্রা:</string>
+    <string name="wind_speed">বাতাসের গতি:</string>
+    <string name="wind_direction">বায়ু দিক:</string>
+    <string name="view_soil_information">মৃত্তিকা তথ্য দেখুন</string>
+    <string name="description">বিবরণ:</string>
+    <string name="composition">গঠন:</string>
+    <string name="edit">সম্পাদন করা</string>
+    <string name="potassium">পটাসিয়াম</string>
+    <string name="phosphorous">ফসফরাস</string>
+    <string name="alkali">ক্ষার</string>
+    <string name="nitrogen">নাইট্রোজেন</string>
+    <string name="iron_oxide">আয়রন অক্সাইড</string>
+    <string name="lime">চুন</string>
+    <string name="change_values">মানগুলি আপডেট করুন: (অপরিবর্তিত জন্য খালি ছেড়ে দিন)</string>
+    <string name="save">রক্ষা</string>
+    <string name="feed">ভোজন</string>
+    <string name="access">প্রবেশ</string>
+    <string name="select_language">ভাষা নির্বাচন কর</string>
+    <string name="soil_JSON">https://api.myjson.com/bins/ymxst</string>
+    <string name="states_JSON">https://api.myjson.com/bins/1az965</string>
+<!--    <string name="states_JSON">https://api.myjson.com/bins/1de0jt</string>
+    <string name="soil_JSON">https://api.myjson.com/bins/l0a55</string>-->
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyAlertTheme">
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textColor="#000"
+            android:background="@color/colorBackground"
+            android:shadowColor="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/rbHindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hindi"
+            android:shadowColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rbMalayalam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/malayalam"
+            android:shadowColor="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/rbPunjabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/punjabi"
+            android:shadowColor="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/rbBangla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bangla"
+            android:shadowColor="@color/colorPrimary"/>
+    </RadioGroup>
+</LinearLayout>

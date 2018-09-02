@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Soils</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyCfYDUpH3HB8m0cyGAikuI4gA7UkLG4itU</string>
+    <string name="weather_status">Weather Status:</string>
+    <string name="temp">Temp:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="min_temp">Min Temp:</string>
+    <string name="max_temp">Max Temp:</string>
+    <string name="wind_speed">Wind Speed:</string>
+    <string name="wind_direction">Wind Direction:</string>
+    <string name="view_soil_information">View Soil Information</string>
+    <string name="description">Description:</string>
+    <string name="composition">Composition:</string>
+    <string name="edit">Edit</string>
+    <string name="potassium">Potassium</string>
+    <string name="phosphorous">Phosphorous</string>
+    <string name="alkali">Alkali</string>
+    <string name="nitrogen">Nitrogen</string>
+    <string name="iron_oxide">Iron Oxide</string>
+    <string name="lime">Lime</string>
+    <string name="change_values">Update Values: (Leave Empty for Unchanged)</string>
+    <string name="save">Save</string>
+    <string name="feed">Feed</string>
+    <string name="access">Access</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="bangla">বাংলা</string>
+    <string name="states_JSON">https://api.myjson.com/bins/6kjkl</string>
+    <string name="soil_JSON">https://api.myjson.com/bins/d262d</string>
+</resources>

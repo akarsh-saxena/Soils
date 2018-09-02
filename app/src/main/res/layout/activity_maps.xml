@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.application.soil.soils.MapsActivity"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout"
+    android:background="@color/colorBackground" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:context="com.application.soil.soils.MapsActivity" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/weatherStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/weather_status"
+        app:layout_constraintStart_toEndOf="@+id/weatherIcon"
+        app:layout_constraintTop_toTopOf="@+id/weatherIcon"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tempTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weatherIcon"
+        android:layout_marginTop="8dp"
+        android:text="@string/temp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@+id/weatherStatus"
+        app:layout_constraintTop_toBottomOf="@+id/weatherStatus" />
+
+    <TextView
+        android:id="@+id/pressureTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tempTv"
+        android:layout_marginTop="8dp"
+        android:text="@string/pressure"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@+id/tempTv"
+        app:layout_constraintTop_toBottomOf="@+id/tempTv" />
+
+    <TextView
+        android:id="@+id/humidityTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/humidity"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@+id/pressureTv"
+        app:layout_constraintTop_toBottomOf="@+id/pressureTv" />
+
+    <TextView
+        android:id="@+id/tmpMinTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempTv"
+        android:layout_marginTop="8dp"
+        android:text="@string/min_temp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@+id/humidityTv"
+        app:layout_constraintTop_toBottomOf="@+id/humidityTv" />
+
+    <TextView
+        android:id="@+id/tmpMaxTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/max_temp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windDegTv"
+        app:layout_constraintTop_toTopOf="@+id/tmpMinTv" />
+
+    <TextView
+        android:id="@+id/windSpeedTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tmpMinTv"
+        android:layout_marginTop="8dp"
+        android:text="@string/wind_speed"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@+id/tmpMinTv"
+        app:layout_constraintTop_toBottomOf="@+id/tmpMinTv" />
+
+    <TextView
+        android:id="@+id/windDegTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/wind_direction"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/windSpeedTv" />
+
+    <TextView
+        android:id="@+id/soilInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_soil_information"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/windSpeedTv" />
+
+</android.support.constraint.ConstraintLayout>
